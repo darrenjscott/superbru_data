@@ -25,6 +25,7 @@ for person in sd.players:
     df_collection[person] = df_person
     df_round_collection[person] = df_round
 
+
 match_cols = ['Round', 'Home team', 'Away team', 'Home goals', 'Away goals']
 df_match_results = df_collection[sd.players[0]][match_cols]
 
